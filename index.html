@@ -8,15 +8,24 @@
     <link href="main.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <h1>Number Challenge</h1>
+    <header>
+        <h1>Number Challenge: Is it Odd or Even?</h1>
+    </header>
+    <main>
 
-    <input id="yourNumber" type="number">
-
-    <button id="button">See What You Get!</button>
-
-    <img src="https://evenfinancial.com/wp-content/uploads/2018/02/even-financial.png" id="even" class="hidden">
-    <img src="http://odelayfilms.com/wp-content/uploads/2017/02/odd.png" id="odd" class="hidden">
-
+        <h2>
+                Enter a number:
+                <input id="yourNumber" type="number" required>
+        </h2> 
+        
+        <p>
+            <button id="button" class="buttonstyle">See What You Get!</button>
+        </p>
+        
+        <img src="https://evenfinancial.com/wp-content/uploads/2018/02/even-financial.png" id="even" class="hidden">
+        <img src="http://odelayfilms.com/wp-content/uploads/2017/02/odd.png" id="odd" class="hidden">
+        
+    </main>
     <script src="app.js" type="module"></script>
 </body>
 </html>
