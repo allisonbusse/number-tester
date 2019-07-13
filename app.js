@@ -9,10 +9,9 @@ const odd = document.getElementById('odd');
 // wire up events
 button.onclick = function() {
     const x = Number(yourNumber.value);
-  
-    if(x === '') {
+    console.log(x);
+    if(x.toString().length === '0') {
         alert('Name must be filled out');
-        return false;
     } else if(isEven(x)) {
         odd.classList.add('hidden');
         even.classList.remove('hidden');
